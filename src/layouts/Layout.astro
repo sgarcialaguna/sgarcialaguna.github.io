@@ -2,12 +2,12 @@
 import "../styles/global.scss";
 
 // Base domain URL without trailing slash
-const domainBaseURL = "https://devidev.io";
-const ogImageUrl = "https://devidev.io/img/meta.png";
+const domainBaseURL = "https://santiagogarcia.de";
+const ogImageUrl = "https://santiagogarcia.de/img/meta.png";
 
 // Website publisher & region
-const authorPublisher = "Dejan Vi.";
-const geoRegion = "DE-BY";
+const authorPublisher = "Santiago García";
+const geoRegion = "DE-DE";
 
 // SEO title, description and keywords
 const seoTitle = "Santiago García | Full Stack Developer";
@@ -21,8 +21,8 @@ const twitter = {
   title: seoTitle,
   description: seoDescription,
   image: ogImageUrl,
-  site: "@devidev_io",
-  creator: "@devidev_io",
+  // site: "@devidev_io",
+  // creator: "@devidev_io",
 };
 
 // Open graph data
@@ -33,12 +33,12 @@ const openGraph = {
   image: ogImageUrl,
   type: "website",
   locale: "en_US",
-  siteName: "devi|dev|io",
+  siteName: "Santiago García",
 };
 
 // Dublin core
 const dublinCore = {
-  title: "devi|dev|io",
+  title: "Santiago García",
   creator: authorPublisher,
   publisher: authorPublisher,
   rights: authorPublisher,
@@ -70,7 +70,7 @@ const dublinCore = {
 
     <!-- Start: DNS prefetch and preconnect -->
     <!-- <link rel="preload" as="image" href="/img/logo.svg" /> -->
-    <link rel="preconnect" href="https://brain.papersend.io" />
+    <!-- <link rel="preconnect" href="https://brain.papersend.io" /> -->
     <!-- End: DNS prefetch and preconnect -->
 
     <!-- Start: Theming and Favicons -->
@@ -78,7 +78,7 @@ const dublinCore = {
       rel="icon"
       type="image/svg+xml"
       crossorigin="anonymous"
-      href="/img/logo.svg"
+      href="/img/logo.webp"
     />
     <!-- <link rel="alternate icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
         <link rel="alternate icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
@@ -112,8 +112,8 @@ const dublinCore = {
     <meta name="twitter:title" content={twitter.title} />
     <meta name="twitter:description" content={twitter.description} />
     <meta name="twitter:image" content={twitter.image} />
-    <meta name="twitter:site" content={twitter.site} />
-    <meta name="twitter:creator" content={twitter.creator} />
+    <!-- <meta name="twitter:site" content={twitter.site} />
+    <meta name="twitter:creator" content={twitter.creator} /> -->
     <!-- End: Twitter card -->
 
     <!-- Start: Dublin Core (DC) -->
